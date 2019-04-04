@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c43e316c-129a-475c-a310-9351ad475d81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/banco/AuditorGenerico.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/banco/AuditorGenerico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/banco/BancoInvestimentos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/banco/BancoInvestimentos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/banco/BancoSeguros.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/banco/BancoSeguros.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/banco/QualquerBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/banco/QualquerBanco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/produto/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/produto/Produto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/produto/ProdutoNaoPerecivel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/produto/ProdutoNaoPerecivel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/produto/ProdutoPerecivel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/produto/ProdutoPerecivel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/produto/RepositorioProdutoArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/produto/RepositorioProdutoArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/produto/RepositorioProdutoNaoPerecivelArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/produto/RepositorioProdutoNaoPerecivelArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/produto/RepositorioProdutoPerecivelArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/produto/RepositorioProdutoPerecivelArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/forma/Circulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/forma/Circulo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/forma/Forma.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/forma/Forma.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/forma/Quadrado.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/forma/Quadrado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/forma/Retangulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/forma/Retangulo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/forma/Triangulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/forma/Triangulo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/produto/RepositorioProdutoArrayListSolucao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/produto/RepositorioProdutoArrayListSolucao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/produto/RepositorioProdutoNaoPerecivelArraySolucao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/produto/RepositorioProdutoNaoPerecivelArraySolucao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/produto/RepositorioProdutoPerecivelArraySolucao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/produto/RepositorioProdutoPerecivelArraySolucao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/produto/RepositorioProdutosArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/produto/RepositorioProdutosArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/produto/RepositorioProdutosSolucao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/classes/solucao/produto/RepositorioProdutosSolucao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/test-classes/produto/TestRepositorioProdutos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros de Revisão/RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment/target/test-classes/produto/TestRepositorioProdutos.class" afterDir="false" />
-    </list>
+    <list default="true" id="c43e316c-129a-475c-a310-9351ad475d81" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="750">
               <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
             </state>
           </provider>
@@ -47,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
+            <state relative-caret-position="420">
               <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -59,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            <state relative-caret-position="464">
+              <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,6 +145,9 @@
       </pane>
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -194,18 +174,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24940239" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25338647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -213,27 +191,30 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="750">
           <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
+        <state relative-caret-position="420">
           <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -243,8 +224,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        <state relative-caret-position="464">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
