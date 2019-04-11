@@ -11,59 +11,65 @@ package problems;
  * @author Adalberto
  *
  */
-public class FloorCeilBinarySearch implements FloorCeil {
 
+public class FloorCeilBinarySearch implements FloorCeil {
 
 	@Override
 	public Integer floor(Integer[] array, Integer x) {
-		return particionaFloor(array, 0, array.length - 1, x);
+		int left = 0;
+		int right = array.length-1;
+		return buscaBinariaFloor(array, left, right, x);
 
 	}
 
 	@Override
 	public Integer ceil(Integer[] array, Integer x) {
-		return particionaCeil(array, 0, array.length - 1, x);
+		int left = 0;
+		int right = array.length-1;
+		return buscaBinariaCeil(array, left, right, x);
 	}
 
-	private Integer particionaFloor(Integer[] array, int left, int right, Integer floor){
-		int middle = (left + right)/2;
 
-		if(left == middle){
-			if(array[left] > floor){
-				return null;
-			}if(array[left] == floor){
-				return array[left];
-			}
+	public Integer buscaBinariaFloor(Integer[] array, int left, int right, int key) {
+		if (left > right) {
 			return array[right];
 		}
-		if(array[middle] >= floor){
-			return particionaFloor(array,left, middle, floor );
+		if (key < array[left]) {
+			return null;
 		}
-		if(array[middle] < floor ){
-			return particionaFloor(array, middle + 1, right, floor);
+
+		int mid = (left + right)/2;
+		if (array[mid] > key) {
+			return buscaBinariaFloor(array, left, mid-1, key);
+		} else if(array[mid] < key) {
+			return buscaBinariaFloor(array, mid+1, right, key);
+		} else {
+			return array[mid];
 		}
-		return null;
+
 	}
 
-	private Integer particionaCeil(Integer[] array, int left, int right, Integer smaller) {
-		int middle = (left + right)/2;
 
-		if (left == middle){
-			if(smaller > array[right]){
-				return null;
-			}
-			if(array[right] == smaller){
-				return array[right];
-			}
+	public Integer buscaBinariaCeil(Integer[] array, int left, int right, int key) {
+		if (left > right) {
 			return array[left];
 		}
-		if(smaller >= array[middle + 1]){
-			return particionaCeil(array,middle + 1, right, smaller );
+
+		if (key > array[right]) {
+			return null;
 		}
-		if(smaller < array[middle +1]){
-			return particionaCeil(array, left, middle, smaller);
+
+		int mid = (left + right)/2;
+
+		if (array[mid
+				] > key) {
+			return buscaBinariaCeil(array, left, mid-1, key);
+		} else if(array[mid] < key) {
+			return buscaBinariaCeil(array, mid+1, right, key);
+		} else {
+			return array[mid];
 		}
-		return null;
+
 	}
 }
 

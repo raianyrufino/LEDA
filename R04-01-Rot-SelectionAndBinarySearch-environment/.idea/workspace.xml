@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad383cca-6aaa-4ad6-bb3a-192122459d7a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE2-01-RE-RecursiveSelectionsort-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiros Especiais/RE2-01-RE-RecursiveSelectionsort-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/118110466-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/118110466-send.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/FloorCeilBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/FloorCeilBinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/118110466.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/118110466.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/problems/FloorCeilBinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/problems/FloorCeilBinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/submission-1.0.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,24 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/problems/FloorCeilBinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="15">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -47,9 +39,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/problems/FloorCeilBinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/problems/FloorCeilBinarySearch.java" />
       </list>
     </option>
   </component>
@@ -62,10 +54,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="64" />
-    <option name="width" value="1281" />
-    <option name="height" value="704" />
+    <option name="x" value="185" />
+    <option name="y" value="380" />
+    <option name="width" value="1279" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -73,8 +65,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,17 +100,18 @@
             </path>
             <path>
               <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R04-01-Rot-SelectionAndBinarySearch-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -170,7 +161,7 @@
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25338647" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2613546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -184,8 +175,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4996016" visible="true" weight="0.32884902" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5003984" side_tool="true" visible="true" weight="0.32884902" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49880478" visible="true" weight="0.3153961" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5011952" side_tool="true" weight="0.32766616" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32884902" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -197,23 +188,40 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25737053" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32884902" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49880478" visible="true" weight="0.32766616" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5011952" side_tool="true" visible="true" weight="0.32766616" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32884902" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/FloorCeil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/FloorCeilBinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -226,8 +234,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="-334">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/FloorCeilBinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

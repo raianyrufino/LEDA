@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="927eb5b5-7913-4c1c-92b0-5c849ffe6d09" name="Default Changelist" comment="" />
+    <list default="true" id="0d5f56f1-aedd-4b8d-a252-e2d05615e061" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sorting/simpleSorting/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/simpleSorting/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sorting/simpleSorting/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/simpleSorting/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sorting/test/StudentSortingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sorting/test/StudentSortingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/118110466-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/118110466-send.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/src/main/java/problems/FloorCeilBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/src/main/java/problems/FloorCeilBinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/target/118110466.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/target/118110466.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/target/classes/problems/FloorCeilBinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/target/classes/problems/FloorCeilBinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/target/submission-1.0.jar" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,15 +26,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sorting/simpleSorting/BubbleSort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sorting/simpleSorting/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="49" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="49" />
+            <state relative-caret-position="315">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,68 +44,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sorting/simpleSorting/InsertionSort.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="131">
+              <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="119" column="80" selection-start-line="119" selection-start-column="80" selection-end-line="119" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/simpleSorting/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sorting/variationsOfBubblesort/SimultaneousBubblesort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sorting/AbstractSorting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding>
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -103,27 +70,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/SelectionSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sorting/variationsOfBubblesort/SimultaneousBubblesort.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/sorting/simpleSorting/SelectionSort.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="187" />
-    <option name="width" value="1281" />
-    <option name="height" value="704" />
+    <option name="x" value="185" />
+    <option name="y" value="380" />
+    <option name="width" value="1279" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -178,23 +135,6 @@
               <item name="submission" type="b2602c69:ProjectViewProjectNode" />
               <item name="R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="variationsOfBubblesort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentSortingTest">
+  <component name="RunManager">
     <configuration name="StudentSortingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -250,43 +190,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentSortingTest.testSort01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="submission" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorting.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sorting.test" />
-      <option name="MAIN_CLASS_NAME" value="sorting.test.StudentSortingTest" />
-      <option name="METHOD_NAME" value="testSort01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentSortingTest.testSort02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="submission" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorting.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sorting.test" />
-      <option name="MAIN_CLASS_NAME" value="sorting.test.StudentSortingTest" />
-      <option name="METHOD_NAME" value="testSort02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StudentSortingTest" />
-        <item itemvalue="JUnit.StudentSortingTest.testSort02" />
-        <item itemvalue="JUnit.StudentSortingTest.testSort01" />
       </list>
     </recent_temporary>
   </component>
@@ -295,167 +201,101 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="927eb5b5-7913-4c1c-92b0-5c849ffe6d09" name="Default Changelist" comment="" />
-      <created>1553802563234</created>
+      <changelist id="0d5f56f1-aedd-4b8d-a252-e2d05615e061" name="Default Changelist" comment="" />
+      <created>1554938384704</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1553802563234</updated>
+      <updated>1554938384704</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentSortingTest - 2019.03.28 at 19h 39m 43s.xml">
+    <history-entry file="StudentSortingTest - 2019.04.10 at 20h 33m 56s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.03.28 at 19h 40m 44s.xml">
+    <history-entry file="StudentSortingTest - 2019.04.10 at 21h 44m 43s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.03.28 at 19h 41m 05s.xml">
+    <history-entry file="StudentSortingTest - 2019.04.10 at 21h 46m 17s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.03.28 at 19h 44m 07s.xml">
+    <history-entry file="StudentSortingTest - 2019.04.10 at 21h 56m 40s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.03.28 at 19h 44m 10s.xml">
+    <history-entry file="StudentSortingTest - 2019.04.10 at 22h 00m 08s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.03.28 at 19h 45m 16s.xml">
+    <history-entry file="StudentSortingTest - 2019.04.10 at 22h 00m 50s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.03.28 at 19h 46m 38s.xml">
+    <history-entry file="StudentSortingTest - 2019.04.10 at 22h 01m 23s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.03.28 at 19h 55m 11s.xml">
+    <history-entry file="StudentSortingTest - 2019.04.10 at 22h 01m 42s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.03.28 at 19h 56m 44s.xml">
-      <configuration name="StudentSortingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentSortingTest - 2019.03.28 at 20h 42m 55s.xml">
-      <configuration name="StudentSortingTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25737053" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32884902" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3168909" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32884902" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32884902" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32988048" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.24940239" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24940239" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32884902" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32884902" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/submission$StudentSortingTest_testSort01.ic" NAME="StudentSortingTest.testSort01 Coverage Results" MODIFIED="1553805089784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>sorting.test.*</FILTER>
-    </SUITE>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting/simpleSorting/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="49" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting/simpleSorting/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="119" column="80" selection-start-line="119" selection-start-column="80" selection-end-line="119" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/simpleSorting/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="315">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/variationsOfBubblesort/SimultaneousBubblesort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/AbstractSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="131">
+          <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/simpleSorting/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
