@@ -24,10 +24,10 @@ public class QuickSort<T extends Comparable<T>> extends AbstractSorting<T> {
 	public  int particionar(T[] array, int ini, int fim){
 		T pivot = array[ini];
 		int i = ini;
-		for(int j = ini + 1; j <= fim; j++){
+		for(int j=ini+1; j <= fim ; j++){
 			if(array[j].compareTo(pivot) < 0){
-				i += 1;
-				Util.swap(array, i, j);
+				i+=1;
+				Util.swap(array,i, j);
 			}
 		}
 		Util.swap(array, ini, i);

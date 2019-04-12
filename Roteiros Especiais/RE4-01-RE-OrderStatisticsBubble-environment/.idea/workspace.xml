@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="109f294d-524a-449f-baa1-230643a4410a" name="Default Changelist" comment="">
+    <list default="true" id="6010023f-6412-485f-b680-75db52f1cc88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/src/main/java/sorting/simpleSorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/src/main/java/sorting/simpleSorting/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/src/main/java/sorting/simpleSorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../R01-01-Rot-SimpleSorting-Simultaneous-Bubble-environment/src/main/java/sorting/simpleSorting/SelectionSort.java" afterDir="false" />
@@ -12,9 +12,8 @@
       <change beforePath="$PROJECT_DIR$/../../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/src/main/java/sorting/divideAndConquer/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/src/main/java/sorting/divideAndConquer/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/src/main/java/sorting/divideAndConquer/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../R02-01-Rot-RecursiveSorting-3-way-Quicksort-environment/src/main/java/sorting/divideAndConquer/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../R03-01-Rot-LinearSorting-Countingsort-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../R03-01-Rot-LinearSorting-Countingsort-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/variationsOfBubblesort/RecursiveBubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/variationsOfBubblesort/RecursiveBubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RE1-01-RE-RecursiveBubblesort-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RE1-01-RE-RecursiveBubblesort-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RE1-01-RE-RecursiveBubblesort-environment/src/main/java/sorting/variationsOfBubblesort/RecursiveBubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RE1-01-RE-RecursiveBubblesort-environment/src/main/java/sorting/variationsOfBubblesort/RecursiveBubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RE2-01-RE-RecursiveSelectionsort-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RE2-01-RE-RecursiveSelectionsort-environment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RE2-01-RE-RecursiveSelectionsort-environment/src/main/java/sorting/variationsOfSelectionsort/RecursiveSelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RE2-01-RE-RecursiveSelectionsort-environment/src/main/java/sorting/variationsOfSelectionsort/RecursiveSelectionSort.java" afterDir="false" />
     </list>
@@ -26,8 +25,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="185" />
@@ -42,12 +73,30 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="exercicio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RE4-01-RE-OrderStatisticsBubble-environment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercicio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RE4-01-RE-OrderStatisticsBubble-environment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercicio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RE4-01-RE-OrderStatisticsBubble-environment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -66,16 +115,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="109f294d-524a-449f-baa1-230643a4410a" name="Default Changelist" comment="" />
-      <created>1554996697595</created>
+      <changelist id="6010023f-6412-485f-b680-75db52f1cc88" name="Default Changelist" comment="" />
+      <created>1554983638111</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1554996697595</updated>
+      <updated>1554983638111</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -103,6 +153,15 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

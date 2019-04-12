@@ -2,8 +2,9 @@ package sorting.variationsOfSelectionsort;
 
 import sorting.AbstractSorting;
 
-public class RecursiveSelectionSort<T extends Comparable<T>> extends
-		AbstractSorting<T> {
+import java.util.Arrays;
+
+public class RecursiveSelectionSort {
 
 	/**
 	 * Implementação recursiva do selection sort. Você deve implementar apenas
@@ -13,24 +14,33 @@ public class RecursiveSelectionSort<T extends Comparable<T>> extends
 	 * menor em uma chamada recursiva. Seu algoritmo deve ter complexidade
 	 * quadrática O(n^2).
 	 */
-	@Override
-	public void sort(T[] array, int leftIndex, int rightIndex) {
-		if(leftIndex < rightIndex){
-			int smaller = leftIndex;
-			for(int i=smaller; i<array.length;i++){
-				if(array[i].compareTo(array[smaller]) < 0){
-					smaller = i;
-				}
-			}
-			Swap(array, leftIndex, smaller);
-			sort(array, leftIndex+1);
+	//@Override
+	public static void sort(int[] array, int leftIndex, int rightIndex) {
+
+		if(leftIndex == rightIndex){
+			return;
 		}
+
+		int smaller = leftIndex;
+		for(int i=leftIndex; i<=rightIndex; i++)
+			if (array[i] < array[smaller]) {
+				smaller = i;
+			}
+		Swap(array, smaller, leftIndex);
+		sort(array, leftIndex+1, rightIndex);
 	}
 
-	private static void Swap(T[] array, int k, int smaller) {
-		T temp = array[k];
+	private static void Swap(int[] array, int k, int smaller) {
+		int temp = array[k];
 		array[k] = array[smaller];
 		array[smaller] = temp;
 	}
 
+	public static void main(String[] args) {
+		int[] arr = {12, 11, 13, 5, 6};
+
+		sort(arr, 0, 5);
+
+		System.out.println(Arrays.toString(arr));
+	}
 }
