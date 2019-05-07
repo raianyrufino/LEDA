@@ -2,6 +2,7 @@ package adt.stack;
 
 import adt.linkedList.DoubleLinkedList;
 import adt.linkedList.DoubleLinkedListImpl;
+import adt.linkedList.DoubleLinkedListNode;
 
 public class StackDoubleLinkedListImpl<T> implements Stack<T> {
 
@@ -18,8 +19,8 @@ public class StackDoubleLinkedListImpl<T> implements Stack<T> {
 		if(isFull()){
 			throw new StackOverflowException();
 		}
-		top.insertFirst(element);
-
+		this.top.insertFirst(element);
+		this.size++;
 	}
 
 	@Override
@@ -27,32 +28,34 @@ public class StackDoubleLinkedListImpl<T> implements Stack<T> {
 		if(isEmpty()){
 			throw new StackUnderflowException();
 		}
-		T exit = ((DoubleLinkedListImpl<T>) top).getHead().getData();
-		top.removeFirst();
-		return exit;
+		T value =  ((DoubleLinkedListImpl<T>) this.top).getHead().getData();
+		this.top.removeFirst();
+		this.size--;
+		return value;
 	}
+
 
 	@Override
 	public T top() {
-		return ((DoubleLinkedListImpl<T>) top).getHead().getData();
+		return ((DoubleLinkedListImpl<T>) this.top).getHead().getData();
 	}
 
 	@Override
 	public boolean isEmpty() {
-		boolean exit = false;
-		if (top.size() == 0) {
-			exit = true;
+		boolean status = false;
+		if(this.top.size() == 0){
+			status = true;
 		}
-		return exit;
+		return status;
 	}
 
 	@Override
 	public boolean isFull() {
-		boolean exit = false;
-		if (top.size() == this.size) {
-			exit = true;
+		boolean status = false;
+		if(this.top.size() == size){
+			status = true;
 		}
-		return exit;
+		return status;
 	}
 
 }

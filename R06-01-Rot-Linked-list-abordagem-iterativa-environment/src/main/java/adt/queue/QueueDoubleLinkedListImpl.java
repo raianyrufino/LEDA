@@ -2,6 +2,7 @@ package adt.queue;
 
 import adt.linkedList.DoubleLinkedList;
 import adt.linkedList.DoubleLinkedListImpl;
+import adt.linkedList.DoubleLinkedListNode;
 
 public class QueueDoubleLinkedListImpl<T> implements Queue<T> {
 
@@ -26,11 +27,10 @@ public class QueueDoubleLinkedListImpl<T> implements Queue<T> {
 		if(isEmpty()){
 			throw new QueueUnderflowException();
 		}
+		T value = ((DoubleLinkedListImpl<T>) this.list).getHead().getData();
 		this.list.removeFirst();
-		T exit = ((DoubleLinkedListImpl<T>) list).getHead().getData();
-		list.removeFirst();
-		return exit;
-
+		this.size--;
+		return value;
 	}
 
 	@Override
@@ -38,25 +38,24 @@ public class QueueDoubleLinkedListImpl<T> implements Queue<T> {
 		if(isEmpty()){
 			return null;
 		}
-		return ((DoubleLinkedListImpl<T>) list).getHead().getData();
+		return ((DoubleLinkedListImpl<T>) this.list).getHead().getData();
 	}
 
 	@Override
 	public boolean isEmpty() {
-		boolean exit = false;
-		if (list.size() == 0) {
-			exit = true;
+		boolean status = false;
+		if(this.list.size() == 0){
+			status = true;
 		}
-		return exit;
+		return status;
 	}
 
 	@Override
 	public boolean isFull() {
-		boolean exit = false;
-		if (list.size() == this.size) {
-			exit = true;
+		boolean status = false;
+		if(this.list.size() == size){
+			status = true;
 		}
-		return exit;
+		return status;
 	}
-
 }

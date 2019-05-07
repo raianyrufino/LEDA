@@ -23,12 +23,13 @@ public class QueueImpl<T> implements Queue<T> {
 
 	@Override
 	public boolean isFull() {
-		return this.tail == array.length-1;
+		return this.tail == this.array.length;
 	}
 
 	private void shiftLeft() {
-		for (int i = 0; i < tail; i++)
-			array[i] = array[i + 1];
+		for(int i=0; i<=tail;i++){
+			array[i] = array[i+1];
+		}
 		if (!isEmpty())
 			array[tail] = null;
 	}
@@ -39,17 +40,19 @@ public class QueueImpl<T> implements Queue<T> {
 			throw new QueueOverflowException();
 		}
 		this.tail++;
-		this.array[tail] = element;
+		this.array[this.tail] = element;
 	}
+
 
 	@Override
 	public T dequeue() throws QueueUnderflowException {
+		T value = this.array[0];
 		if(isEmpty()){
-			throw new  QueueUnderflowException();
+			throw new QueueUnderflowException();
+		} else {
+			shiftLeft();
+			this.tail--;
 		}
-		T value = array[0];
-		shiftLeft();
-		this.tail--;
 		return value;
 	}
 

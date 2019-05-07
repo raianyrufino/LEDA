@@ -15,11 +15,12 @@ public class StackRecursiveDoubleLinkedListImpl<T> implements Stack<T> {
 
 	@Override
 	public void push(T element) throws StackOverflowException {
-		if (!isFull()) {
-			top.insertFirst(element);
-		} else {
+		if(isFull()){
 			throw new StackOverflowException();
+		} else {
+			this.top.insertFirst(element);
 		}
+
 	}
 
 	@Override
@@ -32,7 +33,7 @@ public class StackRecursiveDoubleLinkedListImpl<T> implements Stack<T> {
 
 	@Override
 	public T top() {
-		if (!isEmpty()) {
+		if(!isEmpty()){
 			return ((RecursiveDoubleLinkedListImpl<T>) this.top).getData();
 		}
 		return null;
@@ -40,7 +41,7 @@ public class StackRecursiveDoubleLinkedListImpl<T> implements Stack<T> {
 
 	@Override
 	public boolean isEmpty() {
-		if (top.isEmpty()) {
+		if(this.top.isEmpty()){
 			return true;
 		}
 		return false;
@@ -48,7 +49,7 @@ public class StackRecursiveDoubleLinkedListImpl<T> implements Stack<T> {
 
 	@Override
 	public boolean isFull() {
-		return top.size() == this.size;
+		return this.top.size() == this.size;
 	}
 
 }

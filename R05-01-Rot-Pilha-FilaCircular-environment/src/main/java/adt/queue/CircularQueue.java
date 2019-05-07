@@ -16,64 +16,50 @@ public class CircularQueue<T> implements Queue<T> {
 
 	@Override
 	public void enqueue(T element) throws QueueOverflowException {
-		if (isFull()) {
+		if(isFull()){
 			throw new QueueOverflowException();
 		}
-		if (element != null) {
-			if (isEmpty()) {
+		if(element != null){
+			if(isEmpty()){
 				this.head = 0;
 				this.tail = 0;
 				this.array[0] = element;
 			} else {
-				this.tail = this.array.length - 1 - this.elements;
-				this.array[this.tail] = element;
+				this.tail = (this.tail+1)%this.elements;
+				this.array[tail] = element;
 			}
-			this.elements += 1;
+			this.elements++;
 		}
 	}
 
 	@Override
 	public T dequeue() throws QueueUnderflowException {
-		if (isEmpty()) {
+		if(isEmpty()){
 			throw new QueueUnderflowException();
 		}
-		T value = this.array[head];
-		if (this.head == this.tail) {
+		T value = this.head();
+		if(this.head == this.tail){
 			this.head = -1;
 			this.tail = -1;
 		} else {
-			this.head = (this.head + 1) % this.array.length;
+			this.head = (this.head+1)%this.elements;
 		}
-		this.elements -= 1;
+		this.elements--;
 		return value;
-
 	}
 
 	@Override
 	public T head() {
-		if (isEmpty()) {
-			return null;
-		}
 		return this.array[head];
-
 	}
 
 	@Override
 	public boolean isEmpty() {
-		boolean status = false;
-		if (this.head < 0 && this.tail < 0) {
-			status = true;
-		}
-		return status;
+		return this.head == -1 && this.tail == -1;
 	}
 
 	@Override
 	public boolean isFull() {
-		boolean status = false;
-		if (this.elements == this.array.length) {
-			status = true;
-		}
-		return status;
-
+		return (this.tail+1)%this.elements == this.head;
 	}
 }
