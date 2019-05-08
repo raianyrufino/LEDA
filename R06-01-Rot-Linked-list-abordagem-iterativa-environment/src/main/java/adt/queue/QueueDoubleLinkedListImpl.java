@@ -19,7 +19,7 @@ public class QueueDoubleLinkedListImpl<T> implements Queue<T> {
 		if(isFull()){
 			throw new QueueOverflowException();
 		}
-		this.list.insert(element);
+		this.list.insertFirst(element);
 	}
 
 	@Override

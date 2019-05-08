@@ -1,5 +1,6 @@
 package adt.linkedList;
 
+import com.sun.corba.se.spi.ior.ObjectKey;
 import org.omg.CORBA.Object;
 
 public class SingleLinkedListImpl<T> implements LinkedList<T> {
@@ -41,18 +42,20 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 
 	@Override
 	public void insert(T element) {
-		SingleLinkedListNode<T> aux = this.head;
-		if(this.head.isNIL()) {
-			SingleLinkedListNode<T> newHead = new SingleLinkedListNode<>(element, new SingleLinkedListNode<>());
-			newHead.next = aux;
-			this.head = newHead;
+		if(isEmpty()){
+			SingleLinkedListNode<T> newHead = null;
+			newHead.setData(element);
+			newHead.next = this.head.next;
 		} else {
-			while (!aux.next.isNIL()){
-				aux = aux.next;
+			if(element != null){
+				SingleLinkedListNode<T> aux = this.head;
+				while (!aux.next.isNIL()){
+					aux = aux.next;
+				}
+				SingleLinkedListNode<T> newNode = new SingleLinkedListNode<>(element, new SingleLinkedListNode<>());
+				newNode.next = aux.next;
+				aux.next = newNode;
 			}
-			SingleLinkedListNode<T> newNode = new SingleLinkedListNode<>(element, new SingleLinkedListNode<>());
-			newNode.next = aux.next;
-			aux.next = newNode;
 		}
 	}
 
@@ -78,11 +81,11 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 	@Override
 	public T[] toArray() {
 		T[] list = (T[]) new Object[size()];
-		if(!isEmpty()) {
+		if(!isEmpty()){
 			SingleLinkedListNode<T> aux = this.head;
 			int i = 0;
-			while (!aux.isNIL()) {
-				list[i] = aux.data;
+			while (!aux.isNIL()){
+				list[i] = aux.getData();
 				i++;
 				aux = aux.next;
 			}

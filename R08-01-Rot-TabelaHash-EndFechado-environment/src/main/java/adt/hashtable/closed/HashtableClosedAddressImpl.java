@@ -52,8 +52,7 @@ public class HashtableClosedAddressImpl<T> extends AbstractHashtableClosedAddres
 	 */
 	int getPrimeAbove(int number) {
 		int prime = number;
-
-		while (!Util.isPrime(prime)) {
+		while (!Util.isPrime(prime)){
 			prime++;
 		}
 		return prime;
@@ -67,17 +66,16 @@ public class HashtableClosedAddressImpl<T> extends AbstractHashtableClosedAddres
 	 */
 	@Override
 	public void insert(T element) {
-		if (element != null) {
-			int index = this.getIndexHash(element);
+		if(element != null){
+			int index = getIndexHash(element);
 
-			if (this.table[index] == null) {
-				this.table[index] = new LinkedList<T>();
+			if(this.table[index] == null){
+				this.table[index] = new LinkedList<>();
 			} else {
 				this.COLLISIONS++;
 			}
-
-			if (!((LinkedList<T>) this.table[index]).contains(element)) {
-				((LinkedList<T>) this.table[index]).add(element);
+			if(!((LinkedList<T>)this.table[index]).contains(element)){
+				((LinkedList<T>)this.table[index]).add(element);
 				this.elements++;
 			}
 		}
@@ -88,11 +86,11 @@ public class HashtableClosedAddressImpl<T> extends AbstractHashtableClosedAddres
 	 */
 	@Override
 	public void remove(T element) {
-		if (element != null) {
-			int index = this.indexOf(element);
+		if(element != null){
+			int index = indexOf(element);
 
-			if (index != -1) {
-				((LinkedList<T>) this.table[index]).remove(element);
+			if(index != -1){
+				((LinkedList) this.table[index]).remove(element);
 				this.elements--;
 			}
 		}
@@ -105,15 +103,14 @@ public class HashtableClosedAddressImpl<T> extends AbstractHashtableClosedAddres
 	public T search(T element) {
 		T elementFound = null;
 
-		if (element != null) {
-			int index = this.indexOf(element);
+		if(element != null){
+			int index = indexOf(element);
 
-			if (index != -1) {
+			if(index != -1){
 				int indexList = ((LinkedList<T>) this.table[index]).indexOf(element);
 				elementFound = ((LinkedList<T>) this.table[index]).get(indexList);
 			}
 		}
-
 		return elementFound;
 	}
 
@@ -123,18 +120,17 @@ public class HashtableClosedAddressImpl<T> extends AbstractHashtableClosedAddres
 	 */
 	@Override
 	public int indexOf(T element) {
-		int indexOf = -1;
+		int index = -1;
 
-		if (element != null) {
-			int index = this.getIndexHash(element);
-			LinkedList<T> position = (LinkedList<T>) this.table[index];
+		if(element != null){
+			int indexHash = getIndexHash(element);
+			LinkedList<T> position = (LinkedList<T>) this.table[indexHash];
 
 			if (position != null && position.contains(element)) {
-				indexOf = index;
+				index = indexHash;
 			}
 		}
-
-		return indexOf;
+		return index;
 	}
 
 	/**

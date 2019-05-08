@@ -18,41 +18,45 @@ public class QueueImpl<T> implements Queue<T> {
 
 	@Override
 	public boolean isEmpty() {
-		return this.tail == -1;
+		boolean status = false;
+		if(this.tail == -1){
+			status = true;
+		}
+		return status;
 	}
 
 	@Override
 	public boolean isFull() {
-		return this.tail == this.array.length;
-	}
-
-	private void shiftLeft() {
-		for(int i=0; i<=tail;i++){
-			array[i] = array[i+1];
+		boolean status = false;
+		if(this.tail == this.array.length-1){
+			status = true;
 		}
-		if (!isEmpty())
-			array[tail] = null;
+		return status;
 	}
 
 	@Override
 	public void enqueue(T element) throws QueueOverflowException {
-		if(isFull()){
+		if(this.isFull()) {
 			throw new QueueOverflowException();
 		}
 		this.tail++;
-		this.array[this.tail] = element;
+		this.array[tail] = element;
 	}
 
+	private void shiftLeft() {
+		for(int i=0; i<=this.tail; i++){
+			this.array[i] = this.array[i+1];
+		}
+	}
 
 	@Override
 	public T dequeue() throws QueueUnderflowException {
-		T value = this.array[0];
-		if(isEmpty()){
+		if(this.isEmpty()){
 			throw new QueueUnderflowException();
-		} else {
-			shiftLeft();
-			this.tail--;
 		}
+		T value = this.array[0];
+		shiftLeft();
+		this.tail--;
 		return value;
 	}
 

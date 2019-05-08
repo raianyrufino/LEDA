@@ -49,7 +49,7 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 
 			((DoubleLinkedListNode<T>)this.getHead()).setPrevious(newHead);
 
-			if(this.getHead().isNIL()){
+			if(this.getLast().isNIL()){
 				this.setLast(newHead);
 			}
 			this.setHead(newHead);
@@ -147,6 +147,7 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 		}
 
 		return elementFound;
+
 	}
 
 	public DoubleLinkedListNode<T> getLast() {

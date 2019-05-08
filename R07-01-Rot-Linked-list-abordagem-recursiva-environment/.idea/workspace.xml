@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8e68fb6-94ab-4509-973f-aa5df61b4ab0" name="Default Changelist" comment="">
+    <list default="true" id="fbdee307-c8c2-4086-aca6-e612fd9e2c12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/src/main/java/adt/queue/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/src/main/java/adt/queue/CircularQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/src/main/java/adt/queue/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/src/main/java/adt/queue/QueueImpl.java" afterDir="false" />
@@ -10,13 +10,17 @@
       <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/main/java/adt/linkedList/SingleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/main/java/adt/linkedList/SingleLinkedListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/main/java/adt/queue/QueueDoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/main/java/adt/queue/QueueDoubleLinkedListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/main/java/adt/stack/StackDoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/src/main/java/adt/stack/StackDoubleLinkedListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/linkedList/DoubleLinkedListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/linkedList/DoubleLinkedListImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveSingleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveSingleLinkedListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/adt/stack/StackRecursiveDoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/stack/StackRecursiveDoubleLinkedListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R08-01-Rot-TabelaHash-EndFechado-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R08-01-Rot-TabelaHash-EndFechado-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R08-01-Rot-TabelaHash-EndFechado-environment/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R08-01-Rot-TabelaHash-EndFechado-environment/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R08-01-Rot-TabelaHash-EndFechado-environment/target/classes/adt/hashtable/closed/HashtableClosedAddressImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R08-01-Rot-TabelaHash-EndFechado-environment/target/classes/adt/hashtable/closed/HashtableClosedAddressImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10-01-Rot-SetLinkedList-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R10-01-Rot-SetLinkedList-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10-01-Rot-SetLinkedList-environment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R10-01-Rot-SetLinkedList-environment/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10-01-Rot-SetLinkedList-environment/src/main/java/adt/linkedList/SingleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R10-01-Rot-SetLinkedList-environment/src/main/java/adt/linkedList/SingleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10-01-Rot-SetLinkedList-environment/src/main/java/adt/linkedList/set/SetLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R10-01-Rot-SetLinkedList-environment/src/main/java/adt/linkedList/set/SetLinkedListImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,16 +39,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveSingleLinkedListImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/stack/StackRecursiveDoubleLinkedListImpl.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="38" />
+    <option name="x" value="65" />
     <option name="y" value="-4" />
-    <option name="width" value="1275" />
+    <option name="width" value="545" />
     <option name="height" value="680" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,7 +56,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -110,6 +112,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,11 +135,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f8e68fb6-94ab-4509-973f-aa5df61b4ab0" name="Default Changelist" comment="" />
-      <created>1557230326322</created>
+      <changelist id="fbdee307-c8c2-4086-aca6-e612fd9e2c12" name="Default Changelist" comment="" />
+      <created>1557306222375</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557230326322</updated>
+      <updated>1557306222375</updated>
     </task>
     <servers />
   </component>
@@ -148,7 +151,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24940239" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29561752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -173,36 +176,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveSingleLinkedListImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1579#1580#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="249">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        <state relative-caret-position="390">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
           <folding>
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/StackRecursiveDoubleLinkedListImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-          <folding>
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
         </state>
       </provider>
     </entry>

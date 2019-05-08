@@ -18,12 +18,20 @@ public class StackImpl<T> implements Stack<T> {
 
 	@Override
 	public boolean isEmpty() {
-		return this.top == -1;
+		boolean status = false;
+		if(this.top == -1){
+			status = true;
+		}
+		return status;
 	}
 
 	@Override
 	public boolean isFull() {
-		return this.top == this.array.length-1;
+		boolean status = true;
+		if(this.top == this.array.length-1){
+			status = false;
+		}
+		return status;
 	}
 
 	@Override
