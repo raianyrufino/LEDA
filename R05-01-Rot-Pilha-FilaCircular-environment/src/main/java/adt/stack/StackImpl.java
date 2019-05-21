@@ -27,9 +27,9 @@ public class StackImpl<T> implements Stack<T> {
 
 	@Override
 	public boolean isFull() {
-		boolean status = true;
+		boolean status = false;
 		if(this.top == this.array.length-1){
-			status = false;
+			status = true;
 		}
 		return status;
 	}

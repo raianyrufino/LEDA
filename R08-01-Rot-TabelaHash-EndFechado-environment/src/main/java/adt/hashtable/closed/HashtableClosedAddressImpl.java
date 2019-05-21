@@ -1,6 +1,7 @@
 package adt.hashtable.closed;
 
 import adt.hashtable.hashfunction.HashFunctionClosedAddress;
+import sun.awt.image.ImageWatched;
 import util.Util;
 import adt.hashtable.hashfunction.HashFunction;
 import adt.hashtable.hashfunction.HashFunctionClosedAddressMethod;
@@ -52,7 +53,7 @@ public class HashtableClosedAddressImpl<T> extends AbstractHashtableClosedAddres
 	 */
 	int getPrimeAbove(int number) {
 		int prime = number;
-		while (!Util.isPrime(prime)){
+		while(!Util.isPrime(prime)){
 			prime++;
 		}
 		return prime;
@@ -66,16 +67,17 @@ public class HashtableClosedAddressImpl<T> extends AbstractHashtableClosedAddres
 	 */
 	@Override
 	public void insert(T element) {
+		int indexHash = getIndexHash(element);
 		if(element != null){
-			int index = getIndexHash(element);
 
-			if(this.table[index] == null){
-				this.table[index] = new LinkedList<>();
+			if(this.table[indexHash] == null){
+				this.table[indexHash]  = new LinkedList<>();
 			} else {
 				this.COLLISIONS++;
 			}
-			if(!((LinkedList<T>)this.table[index]).contains(element)){
-				((LinkedList<T>)this.table[index]).add(element);
+
+			if(!((LinkedList<T>) this.table[indexHash]).contains(element)){
+				((LinkedList<T>)this.table[indexHash]).add(element);
 				this.elements++;
 			}
 		}
@@ -88,9 +90,8 @@ public class HashtableClosedAddressImpl<T> extends AbstractHashtableClosedAddres
 	public void remove(T element) {
 		if(element != null){
 			int index = indexOf(element);
-
 			if(index != -1){
-				((LinkedList) this.table[index]).remove(element);
+				((LinkedList<T>)this.table[index]).remove(element);
 				this.elements--;
 			}
 		}
@@ -105,7 +106,6 @@ public class HashtableClosedAddressImpl<T> extends AbstractHashtableClosedAddres
 
 		if(element != null){
 			int index = indexOf(element);
-
 			if(index != -1){
 				int indexList = ((LinkedList<T>) this.table[index]).indexOf(element);
 				elementFound = ((LinkedList<T>) this.table[index]).get(indexList);
@@ -122,12 +122,12 @@ public class HashtableClosedAddressImpl<T> extends AbstractHashtableClosedAddres
 	public int indexOf(T element) {
 		int index = -1;
 
-		if(element != null){
+		if(element != null) {
 			int indexHash = getIndexHash(element);
 			LinkedList<T> position = (LinkedList<T>) this.table[indexHash];
 
 			if (position != null && position.contains(element)) {
-				index = indexHash;
+					index = indexHash;
 			}
 		}
 		return index;

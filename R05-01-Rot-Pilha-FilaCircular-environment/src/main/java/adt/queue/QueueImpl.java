@@ -36,7 +36,7 @@ public class QueueImpl<T> implements Queue<T> {
 
 	@Override
 	public void enqueue(T element) throws QueueOverflowException {
-		if(this.isFull()) {
+		if(this.isFull()){
 			throw new QueueOverflowException();
 		}
 		this.tail++;
@@ -51,13 +51,14 @@ public class QueueImpl<T> implements Queue<T> {
 
 	@Override
 	public T dequeue() throws QueueUnderflowException {
-		if(this.isEmpty()){
+		if(isEmpty()){
 			throw new QueueUnderflowException();
 		}
-		T value = this.array[0];
+		T value = this.array[tail];
 		shiftLeft();
-		this.tail--;
+		tail--;
 		return value;
+
 	}
 
 }
