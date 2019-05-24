@@ -2,65 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cce49f5-cfa5-462c-b3f2-2d6f1861ba02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Roteiros Especiais/2o estagio/RE5-01-RE-Linked-list-iterativa-ordenada-environment/src/main/java/adt/linkedList/Comparadores/CompareToMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Roteiros Especiais/2o estagio/RE5-01-RE-Linked-list-iterativa-ordenada-environment/src/main/java/adt/linkedList/Comparadores/CompareToMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/src/main/java/adt/queue/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/src/main/java/adt/queue/CircularQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/src/main/java/adt/queue/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/src/main/java/adt/queue/QueueImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/src/main/java/adt/stack/StackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/src/main/java/adt/stack/StackImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R08-01-Rot-TabelaHash-EndFechado-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R08-01-Rot-TabelaHash-EndFechado-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R08-01-Rot-TabelaHash-EndFechado-environment/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R08-01-Rot-TabelaHash-EndFechado-environment/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE1-01-RE-RecursiveBubblesort-environment/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE1-01-RE-RecursiveBubblesort-environment/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE1-01-RE-RecursiveBubblesort-environment/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE1-01-RE-RecursiveBubblesort-environment/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE1-01-RE-RecursiveBubblesort-environment/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE1-01-RE-RecursiveBubblesort-environment/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE1-01-RE-RecursiveBubblesort-environment/src/main/java/sorting/AbstractSorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE1-01-RE-RecursiveBubblesort-environment/src/main/java/sorting/Sorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE1-01-RE-RecursiveBubblesort-environment/src/main/java/sorting/variationsOfBubblesort/RecursiveBubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE1-01-RE-RecursiveBubblesort-environment/src/main/java/sorting/variationsOfBubblesort/teste.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE1-01-RE-RecursiveBubblesort-environment/target/classes/sorting/AbstractSorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE1-01-RE-RecursiveBubblesort-environment/target/classes/sorting/Sorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE1-01-RE-RecursiveBubblesort-environment/target/classes/sorting/variationsOfBubblesort/RecursiveBubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE1-01-RE-RecursiveBubblesort-environment/target/classes/sorting/variationsOfBubblesort/teste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE2-01-RE-RecursiveSelectionsort-environment/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE2-01-RE-RecursiveSelectionsort-environment/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE2-01-RE-RecursiveSelectionsort-environment/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE2-01-RE-RecursiveSelectionsort-environment/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE2-01-RE-RecursiveSelectionsort-environment/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE2-01-RE-RecursiveSelectionsort-environment/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE2-01-RE-RecursiveSelectionsort-environment/src/main/java/sorting/AbstractSorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE2-01-RE-RecursiveSelectionsort-environment/src/main/java/sorting/Sorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE2-01-RE-RecursiveSelectionsort-environment/src/main/java/sorting/variationsOfSelectionsort/RecursiveSelectionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE2-01-RE-RecursiveSelectionsort-environment/target/classes/sorting/AbstractSorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE2-01-RE-RecursiveSelectionsort-environment/target/classes/sorting/Sorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE2-01-RE-RecursiveSelectionsort-environment/target/classes/sorting/variationsOfSelectionsort/RecursiveSelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE3-01-RE-OddEven-Bubblesort-environment/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE3-01-RE-OddEven-Bubblesort-environment/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE3-01-RE-OddEven-Bubblesort-environment/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE3-01-RE-OddEven-Bubblesort-environment/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE3-01-RE-OddEven-Bubblesort-environment/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE3-01-RE-OddEven-Bubblesort-environment/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE3-01-RE-OddEven-Bubblesort-environment/src/main/java/sorting/AbstractSorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE3-01-RE-OddEven-Bubblesort-environment/src/main/java/sorting/Sorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE3-01-RE-OddEven-Bubblesort-environment/src/main/java/util/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE4-01-RE-OrderStatisticsBubble-environment/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE4-01-RE-OrderStatisticsBubble-environment/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE4-01-RE-OrderStatisticsBubble-environment/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE4-01-RE-OrderStatisticsBubble-environment/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE4-01-RE-OrderStatisticsBubble-environment/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE4-01-RE-OrderStatisticsBubble-environment/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE4-01-RE-OrderStatisticsBubble-environment/src/main/java/orderStatistic/OrderStatistics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE4-01-RE-OrderStatisticsBubble-environment/src/main/java/orderStatistic/OrderStatisticsSelectionImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RE4-01-RE-OrderStatisticsBubble-environment/src/main/java/util/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RecursiveInsertion/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RecursiveInsertion/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RecursiveInsertion/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RecursiveInsertion/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RecursiveInsertion/InsertionSortRecursive.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RecursiveInsertion/out/production/teste/insertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiros Especiais/RecursiveInsertion/src/recursiveInsertion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,11 +17,11 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1470">
+            <state relative-caret-position="15">
               <caret line="152" column="30" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="30" />
               <folding>
                 <element signature="e#161#162#0" expanded="true" />
@@ -90,15 +32,6 @@
                 <element signature="e#314#315#0" expanded="true" />
                 <element signature="e#349#350#0" expanded="true" />
                 <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-                <element signature="e#2271#2301#0" expanded="true" />
-                <element signature="e#2487#2517#0" expanded="true" />
-                <element signature="e#2697#2727#0" expanded="true" />
-                <element signature="e#2893#2894#0" expanded="true" />
-                <element signature="e#2917#2918#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
+            <state relative-caret-position="1350">
               <caret line="90" column="51" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
             </state>
           </provider>
@@ -146,7 +79,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,7 +164,11 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -308,19 +244,15 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24940239" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25338647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.4996016" visible="true" weight="0.32884902" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5003984" side_tool="true" weight="0.32884902" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996016" weight="0.044843048" />
@@ -328,14 +260,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4996016" visible="true" weight="0.3168909" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5003984" side_tool="true" weight="0.32884902" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -346,16 +282,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="90" column="51" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1470">
+        <state relative-caret-position="15">
           <caret line="152" column="30" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="30" />
           <folding>
             <element signature="e#161#162#0" expanded="true" />
@@ -366,16 +295,14 @@
             <element signature="e#314#315#0" expanded="true" />
             <element signature="e#349#350#0" expanded="true" />
             <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#2271#2301#0" expanded="true" />
-            <element signature="e#2487#2517#0" expanded="true" />
-            <element signature="e#2697#2727#0" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="true" />
-            <element signature="e#2917#2918#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="90" column="51" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
         </state>
       </provider>
     </entry>

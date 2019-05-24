@@ -27,29 +27,30 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 
 	@Override
 	public T search(T element) {
-		T foundElement = null ;
+		T elementFound = null;
 		if(element != null){
 			SingleLinkedListNode<T> aux = this.head;
-			while (!aux.isNIL()){
-				if(aux.getData().equals(element)){
-					foundElement = aux.getData();
+			while (!aux.isNIL()) {
+				if (element.equals(aux)) {
+					elementFound = aux.getData();
 				}
 				aux = aux.next;
 			}
 		}
-		return foundElement;
+		return elementFound;
 	}
 
 	@Override
 	public void insert(T element) {
 		if(isEmpty()){
+			//add no comeco
 			SingleLinkedListNode<T> newHead = null;
 			newHead.setData(element);
 			newHead.next = this.head.next;
 		} else {
 			if(element != null){
 				SingleLinkedListNode<T> aux = this.head;
-				while (!aux.next.isNIL()){
+				while(!aux.next.isNIL()){
 					aux = aux.next;
 				}
 				SingleLinkedListNode<T> newNode = new SingleLinkedListNode<>(element, new SingleLinkedListNode<>());
