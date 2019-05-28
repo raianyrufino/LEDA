@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-27T16:22:07.992-0300</date>
+  <logger>RAIANY RUFINO COSTA DA PAZ</logger>
+  <level>FINE</level>
+  <message>File 118110466-RAIANY RUFINO COSTA DA PAZ.zip was received. It was sent by RAIANY RUFINO COSTA DA PAZ from IP 150.165.42.216 at 27-05-2019 16*22*07</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-28T07:06:47.120-0300</date>
+  <logger>RAIANY RUFINO COSTA DA PAZ</logger>
+  <level>FINE</level>
+  <message>File 118110466-RAIANY RUFINO COSTA DA PAZ.zip was received. It was sent by RAIANY RUFINO COSTA DA PAZ from IP 192.168.0.108 at 28-05-2019 07*06*47</message>
+</record>
