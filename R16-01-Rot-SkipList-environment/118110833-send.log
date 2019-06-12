@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-06-06T14:25:22.544-0300</date>
+  <logger>BRENER NOSSE QUEVEDO</logger>
+  <level>FINE</level>
+  <message>File 118110833-BRENER NOSSE QUEVEDO.zip was received. It was sent by BRENER NOSSE QUEVEDO from IP 150.165.42.158 at 06-06-2019 14*25*22</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-06-07T21:21:43.012-0300</date>
+  <logger>BRENER NOSSE QUEVEDO</logger>
+  <level>FINE</level>
+  <message>File 118110833-BRENER NOSSE QUEVEDO.zip was received. It was sent by BRENER NOSSE QUEVEDO from IP 192.168.1.11 at 07-06-2019 21*21*42</message>
+</record>
