@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-06-14T12:09:03.641-0300</date>
+  <logger>BRENER NOSSE QUEVEDO</logger>
+  <level>FINE</level>
+  <message>File 118110833-BRENER NOSSE QUEVEDO.zip was received. It was sent by BRENER NOSSE QUEVEDO from IP 192.168.0.100 at 14-06-2019 12*09*03</message>
+</record>
