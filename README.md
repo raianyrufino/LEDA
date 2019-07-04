@@ -1,5 +1,5 @@
 
-Roteiro 01 - Bubble, Selection e Insertion Sorts;
+#Roteiro 01 - Bubble, Selection e Insertion Sorts;
 Roteiro 02 - Merge, Quick Sorts e ThreeWayQuickSort;
 Roteiro 03 - CountingSort;
 Roteiro 04 - Selection and Binary Search;
