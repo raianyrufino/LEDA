@@ -1,5 +1,8 @@
-# Roteiros 
+# Roteiros
+
+<body>
 <ol>
+  
 Roteiro 01 - Bubble, Selection e Insertion Sorts;
 Roteiro 02 - Merge, Quick Sorts e ThreeWayQuickSort;
 Roteiro 03 - CountingSort;
@@ -18,4 +21,6 @@ Roteiro 15 - Extended AVL;
 Roteiro 16 - SkipList;
 Roteiro 17 - RB Tree;
 Roteiro 18 - B Tree;
+  
 </ol>
+</body>
