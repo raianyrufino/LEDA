@@ -1,4 +1,4 @@
-#Roteiros 
+# Roteiros 
 
 Roteiro 01 - Bubble, Selection e Insertion Sorts;
 Roteiro 02 - Merge, Quick Sorts e ThreeWayQuickSort;
